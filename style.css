@@ -176,3 +176,85 @@ footer {
     font-size: 2rem;
   }
 }
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'poppins',sans-serif;
+}
+body {
+  background-color: #0f0f0f;
+  color:#fff;
+}
+header {
+  background-color: #1c1c1c;
+  padding: 15px;
+  text-align: center;
+}
+header h1 {
+  font-size: 3rem;
+  color: #00bcd4;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0;
+}
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #00bcd4;
+}
+section {
+  padding: 50px 15px;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background-color: #00bcd4;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+ .services .card {
+  background-color: #1e1e1e;
+  margin: 1.50px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+  transition: transform 0.3 ease,box-shadow 0.3s ease;
+ }
+ .services i {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 8px;
+ }
+ footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 15px;
+  color: #999;
+ }
+  .service-card h3 {
+    color: #00bcd4;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+  }
+  .service-card p {
+    color: #0e0e0e;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+ 
