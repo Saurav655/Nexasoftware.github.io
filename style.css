@@ -257,4 +257,23 @@ section {
     font-size: 1rem;
     line-height: 1.5;
   }
+  /* style.css मा यो थप्नुहोस् */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.6s;
+}
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
  
